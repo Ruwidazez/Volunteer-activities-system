@@ -5,3 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Volunteer Activities System</title>
   <style>
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+    header, footer {
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+    }
+    main {
+      text-align: center;
+      padding: 50px 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Volunteer Activities</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Welcome to the Volunteer Platform</h2>
+    <p>This system helps organize and manage volunteer activities easily and efficiently.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Volunteer Platform</p>
+  </footer>
+</body>
+</html>
